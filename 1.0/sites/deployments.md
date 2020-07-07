@@ -48,6 +48,7 @@ Forge will automatically inject the following environment variables into your de
 
 | Key | Description |
 | ----- | ---- |
+| `FORGE_COMPOSER` | The `composer` path, running under the sites PHP version. |
 | `FORGE_DEPLOY_COMMIT` | The hash of the commit being deployed. |
 | `FORGE_DEPLOY_AUTHOR` | The author of the commit. |
 | `FORGE_DEPLOY_MESSAGE` | The commit message. |
